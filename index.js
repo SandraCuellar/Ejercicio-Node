@@ -23,5 +23,4 @@ nombreVersion = os.version();
 console.log(`La versión de tu sistema operativo es ${nombreVersion}`);
 
 // Usuario y carpeta
-os.userInfo();
 console.log(`Tu usuario del sistema operativo es ${nombreUsuario} y tu carpeta es ${rutaCarpetaUsuario}`);
