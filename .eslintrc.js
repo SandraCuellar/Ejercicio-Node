@@ -7,8 +7,7 @@ module.exports = {
   extends: [
     'airbnb-base',
     "prettier",
-    "typescript.suggestionActions.enabled": false,
-    "javascript.suggestionActions.enabled": false,
+
   ],
   parserOptions: {
     ecmaVersion: 12,
@@ -29,6 +28,8 @@ module.exports = {
       "space-before-function-paren": "off",
       "no-param-reassign": "off",
       "no-restricted-globals": "off",
-      "guard-for-in": "off"
+      "guard-for-in": "off",
+      quotes: ["error", "double"],
+      semi: "error",
   },
 };
